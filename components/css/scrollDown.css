@@ -1,0 +1,186 @@
+/*
+ * Scroll Down Indicator style
+**/
+
+@keyframes nudgeMouse {
+    0% {
+        transform: translateY(0);
+    }
+
+    45% {
+        transform: translateY(8px);
+    }
+
+    100%,
+    65% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes trackBallSlide {
+    0% {
+        opacity: 1;
+        transform: scaleY(1) translateY(-10px);
+    }
+
+    45% {
+        opacity: 0;
+        transform: scaleY(0.5) translateY(13px);
+    }
+
+    46% {
+        opacity: 0;
+        transform: scaleY(1) translateY(-10px);
+    }
+
+    100%,
+    65% {
+        opacity: 1;
+        transform: scaleY(1) translateY(-10px);
+    }
+}
+
+@keyframes mouse-scroll-btn-roll-over {
+    0% {
+        stroke-dashoffset: 120;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes mouse-scroll-btn-roll-out {
+    0% {
+        stroke-dashoffset: 0;
+    }
+
+    100% {
+        stroke-dashoffset: -120;
+    }
+}
+
+.next-section-wrap.mouse-wheel .next-section {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0;
+    transition: opacity 0.4s ease;
+    -webkit-animation: nudgeMouse 2.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+    animation: nudgeMouse 2.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+}
+
+.next-section-wrap.mouse-wheel .next-section::before {
+    position: absolute;
+    content: "";
+    display: block;
+    left: 50%;
+    margin-left: -1px;
+    top: 22px;
+    background-color: var(--indicator-color);
+    width: 2px;
+    height: 6px;
+    border-radius: 10px;
+    transition: background-color 0.55s cubic-bezier(0.5, 0.1, 0.07, 1);
+    animation: trackBallSlide 2.4s cubic-bezier(0, 0, 0.725, 1) infinite;
+}
+
+.next-section-wrap.mouse-wheel .next-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: block;
+    width: 30px;
+    height: 45px;
+    margin-left: -15px;
+    border: 2px solid var(--indicator-color);
+    border-radius: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 62;
+}
+
+.next-section:hover .scroll-icon-path {
+    stroke-dashoffset: 0;
+    animation: mouse-scroll-btn-roll-over 0.55s cubic-bezier(0.5, 0.1, 0.07, 1);
+}
+
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+}
+
+.scroll-icon {
+    width: 30px;
+    height: 45px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 100;
+}
+
+.scroll-icon-path {
+    fill: transparent;
+    stroke-width: 2px;
+    stroke-dashoffset: 120;
+    stroke-dasharray: 120;
+    animation: mouse-scroll-btn-roll-out 0.55s cubic-bezier(0.5, 0.1, 0.07, 1);
+}
+
+/*
+ * Scroll Down Spinner style
+**/
+
+img.looped-animation-rotate {
+
+  animation: looped_rotate 12s forwards infinite linear;
+
+}
+
+img.looped-animation-rotate.inverse {
+
+  filter: invert();
+
+}
+
+@media (max-width: 767px) {
+
+  img.looped-animation-rotate {
+
+    max-width: clamp(150px,30vw,175px);
+
+  }
+
+}
+
+
+
+@keyframes looped_rotate {
+
+  0% {
+
+    transform: rotate(0deg);
+
+  }
+
+
+
+  100% {
+
+    transform: rotate(360deg);
+
+  }
+
+}
