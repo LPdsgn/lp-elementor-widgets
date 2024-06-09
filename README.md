@@ -22,20 +22,35 @@ A collection of minimal, lightweight, theme agnostic widgets for Elementor based
 
 ### Scroll Down Indicator
 A simple mouse-looking indicator in pure svg+css
++ Destination ID: lets you specify a css anchor ID to make the indicator linked
 + Dark and light mode
 
-|  |  |
-|---|---|
 | <img src="https://lpdsgn.it/assets/img/scrollDownIndicator_preview_1.jpg" alt="screenshot" width="400"/> | <img src="https://lpdsgn.it/assets/img/scrollDownIndicator_preview.gif" alt="screenshot" width="400"/> |
-
-<img src="https://lpdsgn.it/assets/img/scrollDownIndicator_preview.gif" alt="screenshot" width="400"/> <img src="https://lpdsgn.it/assets/img/scrollDownIndicator_preview_1.jpg" alt="screenshot" width="400"/>
+|---|---|
  
-> #### Scroll Down Spinner
-> A simple rotating text with pure css animation
-> + 
-<!--img src="https://lpdsgn.it/assets/img/scrollDownSpinner_preview.gif" alt="screenshot" width="350"/-->
+### Scroll Down Spinner
+A simple rotating text with pure css animation
++ Dimension: lets you specify the dimension of the spinner (in pixels)
++ Dark and light mode
 
-+ ### Breadcrumbs
+| <img src="https://lpdsgn.it/assets/img/scrollDownSpinner_preview_1.jpg" alt="screenshot" width="400"/> | <img src="https://lpdsgn.it/assets/img/scrollDownSpinner_preview.gif" alt="screenshot" width="400"/> |
+|---|---|
+
+### Breadcrumbs
+Display breadcrumbs using the WordPress core functions to retrieve titles and URLs
+
+![screenshot](https://lpdsgn.it/assets/img/Breadcrumbs-preview-3.jpg)
++ Support for custom separator character
++ Support for displaying:
+  - **Homepage**
+  - **Archive**:<br>works with custom post types' archive (if existing) and blog's archive (if a page is set)
+  - **Parent category**
+  - **Child categories**
+  - Ability to set the maximum number of child categories displayed (useful if more than one is set for the post)
++ Support for custom color and custom typography
+
+| <img src="https://lpdsgn.it/assets/img/Breadcrumbs-preview-1.jpg" alt="screenshot" width="400"/> | <img src="https://lpdsgn.it/assets/img/Breadcrumbs-preview-2.jpg" alt="screenshot" width="400"/> |
+|---|---|
 
 
 ## How To Use
