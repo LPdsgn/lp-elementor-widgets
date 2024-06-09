@@ -56,11 +56,13 @@ Display breadcrumbs using the WordPress core functions to retrieve titles and UR
 ## How To Use
 
 Clone this repository inside your theme's folder. From your command line:
-
 ```bash
 # Clone this repository
 $ git clone https://github.com/LPdsgn/LP-Elementor-Widgets.git
 ```
+
+**Remove** the version number (e.g. `-1.0.1`) from the folder's name
+> `lp-elementor-widgets-1.0.1` → `lp-elementor-widgets`
 
 Then add this line of code to your `functions.php` file to load the widgets:
 ```php
@@ -69,10 +71,6 @@ Then add this line of code to your `functions.php` file to load the widgets:
  */
 include_once(get_stylesheet_directory() . '/lp-elementor-widgets/components.php');
 ```
-
-> **Note** |
-> Lorem ipsum
-
 
 ## Download
 
