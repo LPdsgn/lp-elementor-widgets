@@ -9,7 +9,7 @@ A collection of minimal, lightweight, theme agnostic widgets for Elementor based
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=flat&logo=php&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white)
 
-[Key Features](#key-features) •
+[Widgets](#widgets) •
 [How To Use](#how-to-use) •
 [Download](#download) •
 [Notes](#notes)
@@ -18,19 +18,18 @@ A collection of minimal, lightweight, theme agnostic widgets for Elementor based
 
 </center>
 
-## Key Features
+## Widgets
 
-### Scroll Down
++ ### Scroll Down
+  **Scroll Down Indicator**<br>
+  A simple mouse-looking indicator in pure svg+css<br>
+  <img src="https://lpdsgn.it/assets/img/scrollDownIndicator_preview.gif" alt="screenshot" width="350"/>
+  
+  **Scroll Down Spinner**<br>
+  A simple rotating text with pure css animation<br>
+  <img src="https://lpdsgn.it/assets/img/scrollDownSpinner_preview.gif" alt="screenshot" width="350"/>
 
-> **Scroll Down Indicator**<br>
-> A simple mouse-looking indicator in pure svg+css<br>
-> <img src="https://lpdsgn.it/assets/img/scrollDownIndicator_preview.gif" alt="screenshot" width="200"/>
-
-> **Scroll Down Spinner**<br>
-> A simple rotating text with pure css animation<br>
-> <img src="https://lpdsgn.it/assets/img/scrollDownSpinner_preview.gif" alt="screenshot" width="200"/>
-
-### Breadcrumbs
++ ### Breadcrumbs
 
 
 ## How To Use
