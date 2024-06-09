@@ -20,9 +20,15 @@ A collection of minimal, lightweight, theme agnostic widgets for Elementor based
 
 ## Key Features
 
-### Scroll Down 
-- **Scroll Down Indicator**: a simple mouse-looking indicator in pure svg+css
-- **Scroll Down Spinner**: a simple spinning text
+### Scroll Down
+
+> **Scroll Down Indicator**<br>
+> A simple mouse-looking indicator in pure svg+css<br>
+> <img src="https://lpdsgn.it/assets/img/scrollDownIndicator_preview.gif" alt="screenshot" width="200"/>
+
+> **Scroll Down Spinner**<br>
+> A simple rotating text with pure css animation<br>
+> <img src="https://lpdsgn.it/assets/img/scrollDownSpinner_preview.gif" alt="screenshot" width="200"/>
 
 ### Breadcrumbs
 
@@ -50,7 +56,7 @@ include_once(get_stylesheet_directory() . '/components/components.php');
 
 ## Download
 
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest version of directly as a `.zip` archive.
+You can [download](https://github.com/LPdsgn/LP-Elementor-Widgets/releases/) the latest version of directly as a `.zip` archive.
 
 ## Credits
 
