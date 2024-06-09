@@ -50,7 +50,7 @@ Display breadcrumbs using the WordPress core functions to retrieve titles and UR
   - Ability to set the maximum number of child categories displayed (useful if more than one is set for the post)
 + Support for custom color and custom typography
 
-| <img src="https://lpdsgn.it/assets/img/Breadcrumbs-preview-1.jpg" alt="screenshot" width="400"/> | <img src="https://lpdsgn.it/assets/img/Breadcrumbs-preview-2.jpg" alt="screenshot" width="400"/> |
+| <img src="https://lpdsgn.it/assets/img/Breadcrumbs-preview-1.1.jpg" alt="screenshot" width="400"/> | <img src="https://lpdsgn.it/assets/img/Breadcrumbs-preview-2.1.jpg" alt="screenshot" width="400"/> |
 |---|---|
 
 
