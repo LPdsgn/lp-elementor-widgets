@@ -20,14 +20,20 @@ A collection of minimal, lightweight, theme agnostic widgets for Elementor based
 
 ## Widgets
 
-+ ### Scroll Down
-  **Scroll Down Indicator**<br>
-  A simple mouse-looking indicator in pure svg+css<br>
-  <img src="https://lpdsgn.it/assets/img/scrollDownIndicator_preview.gif" alt="screenshot" width="350"/>
-  
-  **Scroll Down Spinner**<br>
-  A simple rotating text with pure css animation<br>
-  <img src="https://lpdsgn.it/assets/img/scrollDownSpinner_preview.gif" alt="screenshot" width="350"/>
+### Scroll Down Indicator
+A simple mouse-looking indicator in pure svg+css
++ Dark and light mode
+
+|  |  |
+|---|---|
+| <img src="https://lpdsgn.it/assets/img/scrollDownIndicator_preview_1.jpg" alt="screenshot" width="400"/> | <img src="https://lpdsgn.it/assets/img/scrollDownIndicator_preview.gif" alt="screenshot" width="400"/> |
+
+<img src="https://lpdsgn.it/assets/img/scrollDownIndicator_preview.gif" alt="screenshot" width="400"/> <img src="https://lpdsgn.it/assets/img/scrollDownIndicator_preview_1.jpg" alt="screenshot" width="400"/>
+ 
+> #### Scroll Down Spinner
+> A simple rotating text with pure css animation
+> + 
+<!--img src="https://lpdsgn.it/assets/img/scrollDownSpinner_preview.gif" alt="screenshot" width="350"/-->
 
 + ### Breadcrumbs
 
