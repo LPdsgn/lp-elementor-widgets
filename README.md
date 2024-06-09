@@ -5,16 +5,17 @@
 A collection of minimal, lightweight, theme agnostic widgets for Elementor based on core WordPress functions.
 
 ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=flat&logo=WordPress&logoColor=white)
-![Elementor Badge](https://img.shields.io/badge/Elementor-92003B?logo=elementor&logoColor=fff&style=flat)
+![Elementor](https://img.shields.io/badge/Elementor-92003B?logo=elementor&logoColor=fff&style=flat)
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=flat&logo=php&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white)
+![Creative Commons](https://lpdsgn.it/assets/img/BY-NC-SA.png)
 
 [Widgets](#widgets) •
 [How To Use](#how-to-use) •
 [Download](#download) •
 [Notes](#notes)
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+![screenshot](https://lpdsgn.it/assets/img/Elementor-Widgets-Cover.jpg)
 
 </center>
 
@@ -76,19 +77,20 @@ include_once(get_stylesheet_directory() . '/lp-elementor-widgets/components.php'
 
 You can [download](https://github.com/LPdsgn/LP-Elementor-Widgets/releases/) the latest version of directly as a `.zip` archive.
 
-## Credits
+## Notes
 
-This software uses the following resources:
+This software was made upon the following resources:
 
 - [Elementor Widgets](https://developers.elementor.com/docs/widgets/)
 - [Creating Your First Addon](https://developers.elementor.com/docs/getting-started/first-addon/)
 
 ## License
 
-MIT
+GPL >3.0
 
 
-> [lpdsgn.it](https://lpdsgn.it) &nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/LPdsgn) &nbsp;&middot;&nbsp;
-> LinkedIn [@amit_merchant](https://twitter.com/amit_merchant)
+> [lpdsgn.it](https://lpdsgn.it) • 
+> GitHub [@LPdsgn](https://github.com/LPdsgn) • 
+> [LinkedIn](https://www.linkedin.com/in/luigi-pedata-lpdsgn/) • 
+> [Instagram](https://www.instagram.com/lpdsgn.it/)
 
