@@ -67,7 +67,7 @@ Then add this line of code to your `functions.php` file to load the widgets:
 /* CUSTOM ELEMENTOR WIDGET 
  * qui i widget custom registrati in Elementor
  */
-include_once(get_stylesheet_directory() . '/components/components.php');
+include_once(get_stylesheet_directory() . '/lp-elementor-widgets/components.php');
 ```
 
 > **Note** |
