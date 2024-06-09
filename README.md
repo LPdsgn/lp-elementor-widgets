@@ -58,7 +58,7 @@ Display breadcrumbs using the WordPress core functions to retrieve titles and UR
 Clone this repository inside your theme's folder. From your command line:
 ```bash
 # Clone this repository
-$ git clone https://github.com/LPdsgn/LP-Elementor-Widgets.git
+$ git clone https://github.com/LPdsgn/lp-elementor-Widgets.git
 ```
 
 **Remove** the version number (e.g. `-1.0.1`) from the folder's name
