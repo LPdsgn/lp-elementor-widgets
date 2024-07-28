@@ -41,3 +41,10 @@ function registerStyle_scrollDownSpinner() {
     wp_register_style('scrollDown', get_stylesheet_directory_uri() . '/lp-elementor-widgets/css/scrollDown.min.css');
 }
 add_action('wp_enqueue_scripts', 'registerStyle_scrollDownSpinner');
+
+/*
+ * Register Custom Shape Dividers
+ * @package lp-elementor-widgets
+ * @version 1.0.1
+ */
+require_once(get_stylesheet_directory() . '/lp-elementor-widgets/shapeDividers/customShapeDividers.php');
