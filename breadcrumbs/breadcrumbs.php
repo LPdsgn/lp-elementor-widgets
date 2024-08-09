@@ -6,11 +6,11 @@ use Elementor\Group_Control_Typography;
 class Breadcrumbs extends \Elementor\Widget_Base {
 
     public function get_name() {
-        return 'breadcrumbs';
+        return 'advanced-breadcrumbs';
     }
 
     public function get_title() {
-        return esc_html__('Breadcrumbs', 'lp-widgets');
+        return esc_html__('Advanced Breadcrumbs', 'lp-widgets');
     }
 
     public function get_icon() {
