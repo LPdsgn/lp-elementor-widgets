@@ -8,14 +8,14 @@ A collection of minimal, lightweight, theme agnostic widgets for Elementor based
 ![Elementor](https://img.shields.io/badge/Elementor-92003B?logo=elementor&logoColor=fff&style=flat)
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=flat&logo=php&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white)
-![Creative Commons](https://lpdsgn.it/assets/img/BY-NC-SA.png)
+![Creative Commons](https://assets.lpdsgn.it/media/BY-NC-SA.png)
 
 [Widgets](#widgets) •
 [How To Use](#how-to-use) •
 [Download](#download) •
 [Notes](#notes)
 
-![screenshot](https://lpdsgn.it/assets/img/Elementor-Widgets-Cover.jpg)
+![screenshot](https://assets.lpdsgn.it/media/lp-elementor-widgets/Elementor-Widgets-Cover.jpg)
 
 </center>
 
@@ -26,7 +26,7 @@ A simple mouse-looking indicator in pure svg+css
 + Destination ID: lets you specify a css anchor ID to make the indicator linked
 + Dark and light mode
 
-| <img src="https://lpdsgn.it/assets/img/scrollDownIndicator_preview_1.jpg" alt="screenshot" width="400"/> | <img src="https://lpdsgn.it/assets/img/scrollDownIndicator_preview.gif" alt="screenshot" width="400"/> |
+| <img src="https://assets.lpdsgn.it/media/lp-elementor-widgets/scrollDownIndicator_preview_1.jpg" alt="screenshot" width="400"/> | <img src="https://assets.lpdsgn.it/media/lp-elementor-widgets/scrollDownIndicator_preview.gif" alt="screenshot" width="400"/> |
 |---|---|
  
 ### Scroll Down Spinner
@@ -34,13 +34,13 @@ A simple rotating text with pure css animation
 + Dimension: lets you specify the dimension of the spinner (in pixels)
 + Dark and light mode
 
-| <img src="https://lpdsgn.it/assets/img/scrollDownSpinner_preview_1.jpg" alt="screenshot" width="400"/> | <img src="https://lpdsgn.it/assets/img/scrollDownSpinner_preview.gif" alt="screenshot" width="400"/> |
+| <img src="https://assets.lpdsgn.it/media/lp-elementor-widgets/scrollDownSpinner_preview_1.jpg" alt="screenshot" width="400"/> | <img src="https://assets.lpdsgn.it/media/lp-elementor-widgets/scrollDownSpinner_preview.gif" alt="screenshot" width="400"/> |
 |---|---|
 
 ### Breadcrumbs
 Display breadcrumbs using the WordPress core functions to retrieve titles and URLs
 
-![screenshot](https://lpdsgn.it/assets/img/Breadcrumbs-preview-3.jpg)
+![screenshot](https://assets.lpdsgn.it/media/lp-elementor-widgets/Breadcrumbs-preview-3.jpg)
 + Support for custom separator character
 + Support for displaying:
   - **Homepage**
@@ -50,7 +50,7 @@ Display breadcrumbs using the WordPress core functions to retrieve titles and UR
   - Ability to set the maximum number of child categories displayed (useful if more than one is set for the post)
 + Support for custom color and custom typography
 
-| <img src="https://lpdsgn.it/assets/img/Breadcrumbs-preview-1.1.jpg" alt="screenshot" width="400"/> | <img src="https://lpdsgn.it/assets/img/Breadcrumbs-preview-2.1.jpg" alt="screenshot" width="400"/> |
+| <img src="https://assets.lpdsgn.it/media/lp-elementor-widgets/Breadcrumbs-preview-1.1.jpg" alt="screenshot" width="400"/> | <img src="https://assets.lpdsgn.it/media/lp-elementor-widgets/Breadcrumbs-preview-2.1.jpg" alt="screenshot" width="400"/> |
 |---|---|
 
 
@@ -62,7 +62,7 @@ Clone this repository inside your theme's folder. From your command line:
 $ git clone https://github.com/LPdsgn/lp-elementor-Widgets.git
 ```
 
-**Remove** the version number (e.g. `-1.0.1`) from the folder's name
+If you download as a `.zip` archive instead, **remove** the version number (e.g. `-1.0.1`) from the folder's name
 > `lp-elementor-widgets-1.0.1` → `lp-elementor-widgets`
 
 Then add this line of code to your `functions.php` file to load the widgets:
