@@ -1,10 +1,8 @@
 <?php
 
-if (!defined('ABSPATH')) {
-    exit; // Exit if accessed directly.
-}
+defined('ABSPATH') || exit; // Exit if accessed directly
 
-/*
+/**
  * Register BREADCRUMB widget
  * @package lp-elementor-widgets
  * @version 1.0.0
@@ -16,7 +14,7 @@ function register_breadcrumbs($widgets_manager) {
 }
 add_action('elementor/widgets/widgets_registered', 'register_breadcrumbs');
 
-/*
+/**
  * Register SCROLL DOWN widgets
  * @package lp-elementor-widgets
  * @version 1.0.0
@@ -42,7 +40,7 @@ function registerStyle_scrollDownSpinner() {
 }
 add_action('wp_enqueue_scripts', 'registerStyle_scrollDownSpinner');
 
-/*
+/**
  * Register Custom Shape Dividers
  * @package lp-elementor-widgets
  * @version 1.0.1
