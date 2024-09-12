@@ -12,8 +12,8 @@ function custom_elementor_shape_dividers( $additional_shapes ) {
 
 	$additional_shapes['curve-opacity'] = [
 		'title'        => esc_html__( 'Curve opacity', 'textdomain' ),
-		'url'          => get_stylesheet_directory_uri() . '/lp-elementor-widgets/shapeDividers/curveOpacity.svg',
-		'path'         => get_stylesheet_directory() . '/lp-elementor-widgets/shapeDividers/curveOpacity.svg',
+		'url'          => lp_el_widets_base_uri() . '/shapeDividers/curveOpacity.svg',
+		'path'         => __DIR__ . '/curveOpacity.svg',
 		'has_flip'     => true,
 		'has_negative' => true,
 		'height_only'  => true,
